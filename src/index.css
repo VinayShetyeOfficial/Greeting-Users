@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Secular+One&display=swap');
+
+:root{
+  --bgColor: #aee9e1;
+  --greet: #ffe7c5;
+  --heading: #ff7255;
+  --Night: #35302e;
+  --Morning: #3b8535;
+  --Afternoon: #e8a024;
+  --Evening: #a23bc4;
+}
+
+body{
+  height: 100vh;
+  font-family: 'Carter One', 'Secular One', sans-serif, cursive;
+  background-color: var(--bgColor);
+  overflow: hidden;
+}
+
+#root{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  margin: 0;
+  padding: 25px;
+  font-size: 3em;
+  font-weight: 100;
+  color: var(--heading);
+  border-radius: 30px;
+  background-color: var(--greet);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+/* period-colors */
+.period-night{
+  color: var(--Night);
+}
+
+.period-morning{
+  color: var(--Morning);
+}
+
+.period-afternoon{
+  color: var(--Afternoon);
+}
+
+.period-evening{
+  color: var(--Evening);
+}
